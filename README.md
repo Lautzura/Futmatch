@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Hola 👋
+Estoy desarrollando una app de fútbol (React + Firebase) como proyecto personal y de aprendizaje.
 
-# Run and deploy your AI Studio app
+El proyecto está en desarrollo y actualmente estoy trabado con varias partes del código. Tengo ideas claras sobre lo que quiero que la app haga, pero:
 
-This contains everything you need to run your app locally.
+no estoy seguro de si algunas de esas ideas son técnicamente viables
 
-View your app in AI Studio: https://ai.studio/apps/drive/1LMANChwR6njkpqmraBJzSGaGW-fwq6qX
+y, cuando lo son, no estoy logrando implementarlas correctamente
 
-## Run Locally
+Estuve usando herramientas como Google Studio / asistentes de IA para ayudarme, pero muchas veces corrigen una parte y terminan rompiendo otra, lo que me dejó el proyecto bastante desordenado.
 
-**Prerequisites:**  Node.js
+Lo que estoy buscando:
 
+feedback sobre la estructura del proyecto
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+ayuda para destrabar funcionalidades específicas
+
+sugerencias de cómo encarar mejor ciertas ideas
+
+o simplemente una mirada externa de alguien con más experiencia
+
+Cualquier ayuda, comentario o sugerencia es más que bienvenida 🙌
+Gracias por tomarse el tiempo de leer.
