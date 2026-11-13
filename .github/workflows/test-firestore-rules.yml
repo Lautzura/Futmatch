@@ -1,0 +1,29 @@
+name: Test Firestore Rules
+
+# Prueba las reglas de seguridad (firestore.rules) en un Firestore de mentira,
+# simulando todo lo que hace la app. No toca tu base de datos real.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Instalar herramientas de prueba
+        working-directory: tests/rules
+        run: npm install --no-audit --no-fund
+
+      - name: Correr las pruebas
+        working-directory: tests/rules
+        run: npm test
